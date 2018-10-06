@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9BABAAB5216846D000A4574D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABAAB4216846D000A4574D /* AppDelegate.swift */; };
-		9BABAAB7216846D000A4574D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABAAB6216846D000A4574D /* ViewController.swift */; };
 		9BABAABA216846D000A4574D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BABAAB8216846D000A4574D /* Main.storyboard */; };
 		9BABAABC216846DA00A4574D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BABAABB216846DA00A4574D /* Assets.xcassets */; };
 		9BABAABF216846DA00A4574D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BABAABD216846DA00A4574D /* LaunchScreen.storyboard */; };
 		9BABAACA216846DA00A4574D /* robflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABAAC9216846DA00A4574D /* robflixTests.swift */; };
 		9BABAAD5216846DB00A4574D /* robflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABAAD4216846DB00A4574D /* robflixUITests.swift */; };
+		9BABAAE32168574E00A4574D /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BABAAE22168574E00A4574D /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		9BABAAB1216846D000A4574D /* robflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = robflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BABAAB4216846D000A4574D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BABAAB6216846D000A4574D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BABAAB9216846D000A4574D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BABAABB216846DA00A4574D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BABAABE216846DA00A4574D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		9BABAAD0216846DA00A4574D /* robflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = robflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BABAAD4216846DB00A4574D /* robflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = robflixUITests.swift; sourceTree = "<group>"; };
 		9BABAAD6216846DB00A4574D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BABAAE22168574E00A4574D /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		9BABAAB3216846D000A4574D /* robflix */ = {
 			isa = PBXGroup;
 			children = (
+				9BABAAE22168574E00A4574D /* NowPlayingViewController.swift */,
 				9BABAAB4216846D000A4574D /* AppDelegate.swift */,
-				9BABAAB6216846D000A4574D /* ViewController.swift */,
 				9BABAAB8216846D000A4574D /* Main.storyboard */,
 				9BABAABB216846DA00A4574D /* Assets.xcassets */,
 				9BABAABD216846DA00A4574D /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BABAAB7216846D000A4574D /* ViewController.swift in Sources */,
+				9BABAAE32168574E00A4574D /* NowPlayingViewController.swift in Sources */,
 				9BABAAB5216846D000A4574D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
